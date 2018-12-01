@@ -32,5 +32,6 @@ public class InsertionSort {
 	{
 		System.out.print(a[i]+" ");
 	}
+	s.close();
 	}
 }

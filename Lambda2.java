@@ -9,7 +9,9 @@ public class Lambda2 {
 		// TODO Auto-generated method stub
 		a l = (int a) ->
 		{
+			 
 			System.out.println("lambda Expression"+a);
+		
 		};
 		l.dis(l.a);
 
