@@ -75,42 +75,42 @@ public class Collection {
 		
 //========================================================================================
 //==========================================================================================
-//		
-//		//Linked List operations
-//		llist.add(1);
-//		llist.add(2);
-//		llist.add(3);
-//		llist.add(4);
-//		System.out.println(llist);
-//		System.out.println(llist.contains(1));
-//		System.out.println(llist.get(1));
-//		System.out.println(llist.indexOf(4));
-//		System.out.println(llist.size());
-//		System.out.println(llist.remove(3));
-//		System.out.println(llist);
-//		System.out.println(llist.indexOf(1));
-//		System.out.println();
-//		llist.addFirst(1);
-//		System.out.println(llist);
-//		//Linked List willist have feature to append and remove elements from last and first hence it can use like stacks and queues
-//		System.out.println(llist.peek());
-//		System.out.println(llist.peekFirst());//peek == peekFirst
-//		System.out.println(llist.peekLast());
-//		System.out.println(llist);
-//		System.out.println(llist.pollist());// pollist is similar like  pop it willist remove the element from LinkedList from first
-//		System.out.println(llist);
-//		System.out.println(llist.pollistLast());//pollist==pollistFirst removes and returns first elememt of llist
-//		System.out.println(llist);
-//		System.out.println(llist.element());
-//		llist.set(0, "vishnu");
-//		System.out.println(llist.element());// it willist return first element of the llist
-//		System.out.println(llist);
-//		Comparator c = nullist;
-//		llist.add(3);
-//		llist.set(0, 4);
-//		System.out.println(llist);
-//		llist.sort(c);
-//		System.out.println(llist);
+		
+		//Linked List operations
+		llist.add(1);
+		llist.add(2);
+		llist.add(3);
+		llist.add(4);
+		System.out.println(llist);
+		System.out.println(llist.contains(1));
+		System.out.println(llist.get(1));
+		System.out.println(llist.indexOf(4));
+		System.out.println(llist.size());
+		System.out.println(llist.remove(3));
+		System.out.println(llist);
+		System.out.println(llist.indexOf(1));
+		System.out.println();
+		llist.addFirst(1);
+		System.out.println(llist);
+		//Linked List willist have feature to append and remove elements from last and first hence it can use like stacks and queues
+		System.out.println(llist.peek());
+		System.out.println(llist.peekFirst());//peek == peekFirst
+		System.out.println(llist.peekLast());
+		System.out.println(llist);
+		System.out.println(llist.pollFirst());// pollist is similar like  pop it willist remove the element from LinkedList from first
+		System.out.println(llist);
+		System.out.println(llist.pollLast());//pollist==pollistFirst removes and returns first elememt of llist
+		System.out.println(llist);
+		System.out.println(llist.element());
+		llist.set(0, "vishnu");
+		System.out.println(llist.element());// it willist return first element of the llist
+		System.out.println(llist);
+		Comparator c = null;
+		llist.add(3);
+		llist.set(0, 4);
+		System.out.println(llist);
+		llist.sort(c);
+		System.out.println(llist);
 
 //=================================================================================================
 //=======================================================================================
